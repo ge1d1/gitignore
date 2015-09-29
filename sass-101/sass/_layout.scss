@@ -1,0 +1,22 @@
+body {
+	background: $color-body;
+	margin:0;
+	font-size: 16px;
+	font-family:'Merriweather Sans', sans-serif;
+	line-height: 1.4;
+	font-weight: 200;
+}
+header,
+.container,
+footer {
+	width:88%;
+	max-width:930px;
+	margin:0 auto;
+}
+.wrapper {
+	padding:1em 0;
+	background: $color-wrapper;
+}
+h1 {
+	text-align: center;
+}
