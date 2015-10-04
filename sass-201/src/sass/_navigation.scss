@@ -1,0 +1,47 @@
+// Responsive Navigation
+
+nav {	
+	ul {
+		@include display-flex;	
+		flex-direction: column;
+		justify-content: flex-end;
+		list-style: none;
+
+		font-size: 18px;
+		li {
+			padding: 1em;
+
+			a {
+				color: #fff;
+				border-radius: 5%;
+				padding: 0.5em 1.5em;
+				text-decoration: none;
+				background-color: $color-link-background;
+				&:hover {
+				background: $color-link-background-hover;
+			}
+		}
+	}
+	
+	
+}
+}
+
+//media query 
+
+@media screen and (min-width: 600px) {
+nav {
+
+	ul {
+		flex-direction: row;
+		justify-content: center;
+		li {
+			a {
+			}
+		}
+	}
+
+	
+	
+}
+}

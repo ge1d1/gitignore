@@ -1,0 +1,23 @@
+body {
+	background: #fff;
+	margin:0.5;
+}
+
+header,
+.container,
+footer {
+	width: 88%;
+	max-width: 960;
+	margin: 0 auto;
+}
+
+h1,
+footer {
+	text-align: center;
+}
+
+
+.wrapper {
+	padding: 1em 0;
+	background: $color-background-container;
+}
